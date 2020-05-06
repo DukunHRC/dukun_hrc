@@ -8,22 +8,21 @@ echo "GitHub    : https://github.com/Dukun_HRC-ID"
 echo "============================================="
 echo 
 echo "Pilih Menu Tools Nya GBLK"
-echo "[1] Dark FB"
+echo "[1] Animasi Kereta Api"
 echo "[2] MBF"
 echo "[3] LITESPAM"
 echo "[4] TUANB4DUTv3"
-echo "[5] Prank Spammer"
+echo "[5] Menanpilkan icon dan informasi andoid"
 echo "[6] Tools Hack FB"
-echo "[7] Install Bahan-Bahan"
+echo "[7] sh B4J1N64N.sh
+echo "[8] Install Bahan-Bahan"
 read -p "[?] Pilih : " "pil"
 
 # Batas gan
 if [ $pil = 1 ]
 then
-git clone https://github.com/B4N954N2-ID/DarkPremium
-cd DarkPremium
-ls
-python2 darkpremium.py
+pkg install sl
+sl
 fi
 
 # batas gan
@@ -57,10 +56,8 @@ fi
 # batas gan
 if [ $pil = 5]
 then
-git clone https://github.com/B4N954N2-ID/prank
-cd prank
-ls
-python2 spam.py
+pkg install neofetch
+neofetch
 fi
 
 # batas gan
@@ -73,7 +70,16 @@ sh new.sh
 fi
 
 # batas gan
-if [ $pil = 7 ]
+if [ $pil = 6 ]
+then
+git clone https://github.com/DarknessCyberTeam/B4J1N64Nv5
+cd B4J1N64Nv5
+ls
+sh B4J1N64N.sh
+fi
+
+# batas gan
+if [ $pil = 8 ]
 then
 apt update && apt upgrade
 pkg install nano
@@ -89,21 +95,3 @@ pip install pyaes
 pip2 install requests mechanize
 fi
 
-#Jangan Lupa Follow IG||dukun_hrc
-clear
-figlet "Tools Dukun_HRC"
-echo "================================="
-echo "auther    : Dukun_HRC"
-echo "Instagram : @dukun_hrc"
-echo "GitHub    : https://github.com/Dukun_HRC-ID"
-echo "============================================="
-echo 
-echo "Pilih Menu Tools Nya GBLK"
-echo "[1] Dark FB"
-echo "[2] MBF"
-echo "[3] LITESPAM"
-echo "[4] TUANB4DUTv3"
-echo "[5] Prank Spammer"
-echo "[6] Tools Hack FB"
-echo "[7] Install Bahan-Bahan"
-read -p "[?] Pilih : " "pil"
