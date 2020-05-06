@@ -11,7 +11,7 @@ echo "Pilih Menu Tools Nya GBLK"
 echo "[1] Dark FB"
 echo "[2] MBF"
 echo "[3] LITESPAM"
-echo "[4] Hack CCTV"
+echo "[4] TUANB4DUTv3"
 echo "[5] Prank Spammer"
 echo "[6] Tools Hack FB"
 echo "[7] Install Bahan-Bahan"
@@ -47,10 +47,11 @@ fi
 # batas gan
 if [ $pil = 4 ]
 then
-git clone https://github.com/kancotdiq/ipcs
-cd ipcs
+git clone https://github.com/TUANB4DUT/TOOLSINSTALLERv3
+cd TOOLSINSTALLERv3
+chmod +x TUANB4DUT.sh
 ls
-python2 scan.py
+sh TUANB4DUT.sh
 fi
 
 # batas gan
@@ -101,7 +102,7 @@ echo "Pilih Menu Tools Nya GBLK"
 echo "[1] Dark FB"
 echo "[2] MBF"
 echo "[3] LITESPAM"
-echo "[4] Hack CCTV"
+echo "[4] TUANB4DUTv3"
 echo "[5] Prank Spammer"
 echo "[6] Tools Hack FB"
 echo "[7] Install Bahan-Bahan"
